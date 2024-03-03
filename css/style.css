@@ -53,11 +53,28 @@ h1{
     margin: 30px 0 10px;
 }
 
+.wrap2 li {
+    padding: 0 10px;
+}
+
 .wrap2 {
     display: flex;
     justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
+.wrap2 img{
+    width:100%;
+}
+
+.service-text-area {
+    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    /* margin: 0 0 20px 0; */
+    padding: 5px 0;
+}
 
 .service-title2 {
     margin: 10px 40px;
@@ -83,6 +100,11 @@ h1{
         display: block;
         position: relative;
         margin: 0 50px;
+    }
+
+
+    .service-text-area {
+        margin: 0 0 30px 0;
     }
 
     .service-title2 {
